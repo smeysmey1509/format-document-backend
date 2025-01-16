@@ -1,4 +1,4 @@
-// server.js (Updated to use routes)
+// server.js
 const express = require("express");
 const bodyParser = require("body-parser");
 const connectDB = require("./config/db"); // Import DB connection

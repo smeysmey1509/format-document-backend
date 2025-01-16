@@ -24,4 +24,23 @@ router.post("/saveDocument", async (req, res) => {
   }
 });
 
+// Route to retrieve document by doc_id
+router.get("/getDocument/:doc_id", async (req, res) => {
+  try {
+    const { doc_id } = req.params;
+
+    // Find document by doc_id
+    const document = await Document.findOne({ "metadata.doc_id": doc_id });
+
+    if (!document) {
+      return res.status(404).json({ error: "Document not found" });
+    }
+
+    res.status(200).json(document);
+  } catch (error) {
+    console.error("Error retrieving document:", error);
+    res.status(500).json({ error: "Failed to retrieve document" });
+  }
+});
+
 module.exports = router;
