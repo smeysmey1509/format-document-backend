@@ -4,6 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const connectDB = require("./config/db");
 const FileManagement = require("./routes/FileManagement"); // Import create file routes
+const encryptRoutes = require("./routes/encrypt"); // Import encrypt routes
 
 const app = express();
 
@@ -18,6 +19,7 @@ connectDB();
 
 // Use routes
 app.use("/api", FileManagement);
+app.use("/api", encryptRoutes)
 
 
 
