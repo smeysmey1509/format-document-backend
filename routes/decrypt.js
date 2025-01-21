@@ -45,7 +45,7 @@ const decryptExistingFile = (filePath, callback) => {
 };
 
 // Endpoint to decrypt an existing file
-router.post("/decrypt", (req, res) => {
+router.post("/decryptFile", (req, res) => {
   const { fileName } = req.body;
 
   if (!fileName) {
