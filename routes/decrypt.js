@@ -52,7 +52,7 @@ router.post("/decrypt", (req, res) => {
     return res.status(400).json({ error: "Missing fileName" });
   }
 
-  const filePath = path.join(__dirname, `../files/${fileName}`); // Path to the encrypted file
+  const filePath = path.join(__dirname, `../files/${fileName}.scl`); // Path to the encrypted file
 
   decryptExistingFile(filePath, (err, decryptedContent) => {
     if (err) {

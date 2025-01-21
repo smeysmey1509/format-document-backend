@@ -6,6 +6,7 @@ const connectDB = require("./config/db");
 const FileManagement = require("./routes/FileManagement"); // Import create file routes
 const encryptRoutes = require("./routes/encrypt"); // Import encrypt routes
 const decryptRoutes = require("./routes/decrypt"); // Import decrypt routes
+const downloadFileRoutes = require("./routes/downloadFile"); // Import download file routes
 
 const app = express();
 
@@ -22,7 +23,7 @@ connectDB();
 app.use("/api", FileManagement);
 app.use("/api", encryptRoutes)
 app.use("/api", decryptRoutes)
-
+app.use("/api", downloadFileRoutes)
 
 
 // Start server

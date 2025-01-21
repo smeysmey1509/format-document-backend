@@ -52,7 +52,7 @@ router.post("/encryptFile", (req, res) => {
     return res.status(400).json({ error: "Missing fileName" });
   }
 
-  const filePath = path.join(__dirname, `../files/${fileName}`); // Path to the existing file
+  const filePath = path.join(__dirname, `../files/${fileName}.scl`); // Path to the existing file
 
   encryptExistingFile(filePath, (err) => {
     if (err) {
