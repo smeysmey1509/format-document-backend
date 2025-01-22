@@ -32,16 +32,15 @@ const readSCLFile = (fileName, callback) => {
   });
 };
 
-// Function to append content to an .scl file
-const appendToSCLFile = (fileName, content, callback) => {
+// Function to write content to an .scl file
+const writeSCLFile = (fileName, content, callback) => {
   const filePath = path.join(__dirname, `../files/${fileName}.scl`);
 
-  fs.appendFile(filePath, content, (err) => {
+  fs.writeFile(filePath, content, (err) => {
     if (err) {
-      console.error(`Error appending to ${fileName}.scl file:`, err);
+      console.error(`Error writing to ${fileName}.scl file:`, err);
       return callback(err);
     }
-    console.log(`Content appended successfully to ${filePath}`);
     callback(null);
   });
 };
@@ -74,7 +73,9 @@ router.get("/readFile/:fileName", (req, res) => {
   try {
     readSCLFile(fileName, (err, data) => {
       if (err) {
-        return res.status(500).json({ error: `Failed to read ${fileName}.scl file` });
+        return res
+          .status(500)
+          .json({ error: `Failed to read ${fileName}.scl file` });
       }
       res.status(200).json({ content: data });
     });
@@ -84,8 +85,8 @@ router.get("/readFile/:fileName", (req, res) => {
   }
 });
 
-// Endpoint to append content to an .scl file
-router.post("/appendFile", (req, res) => {
+// Endpoint to write content to an .scl file
+router.post("/writeFile", (req, res) => {
   const { fileName, content } = req.body;
 
   if (!fileName || !content) {
@@ -93,15 +94,17 @@ router.post("/appendFile", (req, res) => {
   }
 
   try {
-    appendToSCLFile(fileName, content, (err) => {
+    writeSCLFile(fileName, content, (err) => {
       if (err) {
-        return res.status(500).json({ error: `Failed to append to ${fileName}.scl file` });
+        return res
+          .status(500)
+          .json({ error: `Failed to write to ${fileName}.scl file` });
       }
-      res.status(200).json({ message: "Content appended successfully" });
+      res.status(200).json({ message: "File written successfully" });
     });
   } catch (err) {
-    console.error(`Error appending to ${fileName}.scl file:`, err);
-    res.status(500).json({ error: `Failed to append to ${fileName}.scl file` });
+    console.error(`Error writing to ${fileName}.scl file:`, err);
+    res.status(500).json({ error: `Failed to write to ${fileName}.scl file` });
   }
 });
 
