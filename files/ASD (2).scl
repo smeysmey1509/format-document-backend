@@ -30,17 +30,16 @@
         ]
       },
       {
-        "type": "paragraph"
-      },
-      {
-        "type": "heading",
-        "attrs": {
-          "level": 1
-        },
+        "type": "paragraph",
         "content": [
           {
             "type": "text",
-            "text": "Document Extension"
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ],
+            "text": "Raksmey"
           }
         ]
       },
@@ -49,7 +48,16 @@
         "content": [
           {
             "type": "text",
-            "text": "haahahah"
+            "text": ","
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "asd"
           }
         ]
       }

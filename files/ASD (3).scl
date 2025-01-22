@@ -33,16 +33,7 @@
         "type": "paragraph"
       },
       {
-        "type": "heading",
-        "attrs": {
-          "level": 1
-        },
-        "content": [
-          {
-            "type": "text",
-            "text": "Document Extension"
-          }
-        ]
+        "type": "paragraph"
       },
       {
         "type": "paragraph",
