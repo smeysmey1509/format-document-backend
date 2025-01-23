@@ -1,0 +1,404 @@
+{
+    "metadata": {
+        "doc_id": 123,
+        "title": "pdfTest",
+        "author": "Raksmey",
+        "created_date": "2025-01-23",
+        "last_modified": "2025-01-23",
+        "version": "1.0",
+        "icon": "https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg"
+    },
+    "content": {
+        "content": [
+            {
+                "content": [
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "HELLO",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [
+                            {
+                                "type": "italic"
+                            }
+                        ],
+                        "text": "World_",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "េដីម\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ខំ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ំ\00ត់\00\00ណ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "មិនសូវេចញេទ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "សូមចូលរមួ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "បរ\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "គ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "េដីម\00ជី",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ួយដល់មនី\00រេពទ\00កុ\00រអង\00រ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "&",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "មនី\00េពទ\00គន\00បុ\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "៖",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ធ\00\00រេអ",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "សីុលី\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00មរយៈ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "#មូលនិធិជិះកង់េដីម\00កី",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ុ\00រកម\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "(ACLEDA",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "Bank)៖",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "0001-05389418-14",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "(CYCLING",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "FOR",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "ុ",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "CHILDREN",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ជិះកង់េដីaម\00កី",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ុ\00រកម\00\00)",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "Thanks",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": ":",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ឧបករណ៍",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "េ\00ះតង\00ចរក\00នេ\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": ":",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "Khmer",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "Angkor",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "ុ",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "/",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "khmerangkor.co",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00\00តំៃលសមរម\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "លេ\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00បីសំ\00ប់អ\00កចូលចិត\00េ\00ះតង់ផ\00ងេ\00ពង",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00បំ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ិតបីេដីរ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ងំ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00\00ំ",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "យថី",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00ច\00\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "នបត់",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": ",ពូេ\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": ",េស\00ង\00ចកទឹក",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "អរគុណសំ\00ប់",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ក\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "រថី\00",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "េ\00\00",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "ក",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "\00សវង\00",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [
+                            {
+                                "type": "bold"
+                            }
+                        ],
+                        "text": "40.3K",
+                        "type": "text"
+                    },
+                    {
+                        "marks": [],
+                        "text": "subscribers",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            },
+            {
+                "content": [
+                    {
+                        "marks": [],
+                        "text": "asdsd",
+                        "type": "text"
+                    }
+                ],
+                "type": "paragraph"
+            }
+        ],
+        "type": "doc"
+    }
+}
